@@ -1,0 +1,87 @@
+
+.text_body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.home_text_body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-item.dropdown {
+    margin-left: 2%;
+    font-size: 14pt;
+}
+
+.nav-item {
+    margin-left: 3%;
+    font-size: 14pt;
+}
+
+.glance_table_body {
+    margin-left: 50px;
+}
+
+.state_filter {
+    margin-left: 3%;
+}
+
+.custom-control.custom-checkbox {
+    margin-left: 1.47%;
+}
+
+
+.both_tables {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.pane {
+    overflow-y: scroll;
+    max-height: 200px;    
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.front_table_body {
+    margin: 3%;  
+    width: 75%; 
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #e9ecef; /* Set a background color */
+    color: #007bff; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  
+  
